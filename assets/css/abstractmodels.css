@@ -1,0 +1,23 @@
+html,body{
+	margin:30px;
+	padding:20px;
+	background-color: #F9FBFC;
+}
+#info_block{
+	position:relative;
+		
+}
+.casestudy {
+	position:absolute;
+    width: 100%;
+    height: auto;
+    margin-left:20px;
+}
+.a1_top{
+	position:absolute;
+	width: 525px;
+	top:40;
+}
+.a1_body{
+	width: 100%;
+}
