@@ -6,14 +6,11 @@
 	.st0{fill:none;stroke:#2B2B2B;stroke-miterlimit:10;}
 	.st1{fill:none;stroke:#000000;stroke-miterlimit:10;}
 	.st2{fill:#FAFBFB;}
-	.st3{font-family:'MaisonNeue-Light';}
-	.st4{font-size:11.998px;}
-	.st5{fill:#2B2B2B;}
-	.st6{font-family:'MaisonNeue-Medium';}
-	.st7{font-size:20.5px;}
-	.st8{letter-spacing:2;}
-	.st9{fill:none;stroke:#2B2B2B;stroke-width:3;stroke-miterlimit:10;}
-	.st10{fill:none;stroke:#FAFBFB;stroke-miterlimit:10;}
+	.st3{fill:#5C5C5C;}
+	.st4{font-family:'MaisonNeue-Medium';}
+	.st5{font-size:20.5px;}
+	.st6{fill:none;stroke:#5C5C5C;stroke-width:3;stroke-miterlimit:10;}
+	.st7{fill:none;stroke:#FAFBFB;stroke-miterlimit:10;}
 </style>
 <path class="st0" d="M55.4,17.6"/>
 <path class="st1" d="M334.3,247.4"/>
@@ -21,18 +18,17 @@
 <rect x="621" y="163" class="st2" width="62" height="106.2"/>
 <rect x="622.2" y="497.6" class="st2" width="62" height="101.5"/>
 <rect x="624.3" y="326.4" class="st2" width="62" height="96.2"/>
-<text transform="matrix(1 0 0 1 1161.1719 694.8297)" class="st3 st4">REBECCA YEAP</text>
 <g>
-	<text transform="matrix(1.0041 0 0 1 671.0281 191.9062)" class="st5 st6 st7 st8">PRODUCT</text>
+	<text transform="matrix(1.0041 0 0 1 671.0283 191.9062)" class="st3 st4 st5">PRODUCT</text>
 </g>
-<line class="st9" x1="653.8" y1="174.8" x2="653.8" y2="256.4"/>
-<line class="st9" x1="653.6" y1="340.1" x2="653.6" y2="404.5"/>
+<line class="st6" x1="653.8" y1="174.8" x2="653.8" y2="256.4"/>
+<line class="st6" x1="653.6" y1="340.1" x2="653.6" y2="404.5"/>
 <g>
-	<text transform="matrix(1.0041 0 0 1 485.981 357.8257)" class="st5 st6 st7 st8">ARCHITECTURE</text>
+	<text transform="matrix(1.0041 0 0 1 485.9814 357.8257)" class="st3 st4 st5">ARCHITECTURE</text>
 </g>
-<line class="st9" x1="653.8" y1="516.2" x2="653.8" y2="579.4"/>
+<line class="st6" x1="653.8" y1="516.2" x2="653.8" y2="579.4"/>
 <g>
-	<text transform="matrix(1.0041 0 0 1 672.7456 532.6865)" class="st5 st6 st7 st8">VISUAL DESIGN</text>
+	<text transform="matrix(1.0041 0 0 1 672.7461 532.6865)" class="st3 st4 st5">VISUAL DESIGN</text>
 </g>
-<rect class="st10" width="1366" height="768"/>
+<rect class="st7" width="1366" height="768"/>
 </svg>

@@ -151,10 +151,13 @@ svg{
 	position: absolute;
 	left: 85%;
 	line-height:1.2;
-	top: 91.6%;
+	top: 89.2%;
 	font-size: 0.7vw;
 }
 #contact a:hover {
 	color: red;
 	text-decoration: none;
 }
+
+
+

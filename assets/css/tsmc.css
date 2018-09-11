@@ -1,6 +1,7 @@
 html,body{
 	margin:0 8 0 18px;
 	background-color: #FAFAFA;
+
 }
 @font-face{
 	font-family: "Maison Light";
@@ -22,7 +23,7 @@ html,body{
 	letter-spacing: 1.75px;
 	color: #707070;
 }
-.headerlabels{
+.headerlabels {
 	white-space: nowrap;
 	display: flex;
 	color: #707070;
@@ -32,11 +33,25 @@ html,body{
 }
 
 .headerlabels a {
+	text-decoration: none;
 	color: #707070;
 }
 .headerlabels a:hover {
 	color: red;
 	text-decoration: none;
+}
+#navbar img {
+	width:68px;
+}
+#about_block {
+	position: relative;
+}
+.profile {
+	position: absolute;
+	margin-top: 0px;
+	margin-left: 450px;
+	width: 400px;
+	top:240;
 }
 
 .headerlabels div {
@@ -45,7 +60,9 @@ html,body{
 .nonwork{
 	text-decoration: line-through;
 }
+.container{
 
-#navbar img {
-	width:68px;
+}
+.a1_body img-fluid{
+	padding-left: 30px;
 }
