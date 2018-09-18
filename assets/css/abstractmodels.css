@@ -1,23 +1,67 @@
 html,body{
-	margin:30px;
-	padding:20px;
-	background-color: #F9FBFC;
+	margin:0 8 0 18px;
+	background-color: #FAFAFA;
+
 }
-#info_block{
-	position:relative;
-		
+@font-face{
+	font-family: "Maison Light";
+	src: url(../font/MaisonNeue-Light.ttf);
 }
-.casestudy {
-	position:absolute;
-    width: 100%;
-    height: auto;
-    margin-left:20px;
+.logo{
+	margin:40px 0 0 0px;
 }
-.a1_top{
-	position:absolute;
-	width: 525px;
-	top:40;
+
+#labels-container {
+	position: absolute;
+	width: 280px;
+	right: 8;
+	overflow: hidden;
+	height:130px;
+	margin-bottom: 15px;
+	z-index: 99;
+	font-family: "Maison Light";
+	letter-spacing: 1.75px;
+	color: #707070;
 }
-.a1_body{
-	width: 100%;
+.headerlabels {
+	white-space: nowrap;
+	display: flex;
+	color: #707070;
+	position: relative;
+	width: 300px;
+	flex-direction:row;
+}
+
+.headerlabels a {
+	text-decoration: none;
+	color: #707070;
+}
+.headerlabels a:hover {
+	color: red;
+	text-decoration: none;
+}
+#navbar img {
+	width:68px;
+}
+#about_block {
+	position: relative;
+}
+.profile {
+	position: absolute;
+	margin-left: 460px;
+	width: 350px;
+	top:220;
+}
+
+.headerlabels div {
+	margin: 29px 20px 0 10px;
+}
+.nonwork{
+	text-decoration: line-through;
+}
+.container{
+
+}
+.a1_body img-fluid{
+	padding-left: 30px;
 }

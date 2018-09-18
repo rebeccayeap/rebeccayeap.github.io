@@ -1,7 +1,7 @@
 html,body{
 	margin:0 8 0 18px;
 	background-color: #FAFAFA;
-	
+
 }
 @font-face{
 	font-family: "Maison Light";
@@ -47,9 +47,10 @@ html,body{
 	position: relative;
 }
 .profile {
-	position:absolute;
-	width: 300px;
-	top:200;
+	position: absolute;
+	margin-left: 460px;
+	width: 350px;
+	top:220;
 }
 
 .headerlabels div {

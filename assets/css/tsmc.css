@@ -48,10 +48,12 @@ html,body{
 }
 .profile {
 	position: absolute;
-	margin-top: 0px;
-	margin-left: 450px;
-	width: 400px;
+	margin-left: 460px;
+	width: 350px;
 	top:240;
+}
+h2{
+	letter-spacing: 2;
 }
 
 .headerlabels div {
