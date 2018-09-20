@@ -1,0 +1,88 @@
+html,body{
+	margin:0 8 0 18px;
+	background-color: #FAFAFA;
+
+}
+@font-face{
+	font-family: "Maison Light";
+	src: url(../font/MaisonNeue-Light.ttf);
+}
+.logo{
+	margin:40px 0 0 0px;
+}
+
+#labels-container {
+	position: absolute;
+	width: 280px;
+	right: 8;
+	overflow: hidden;
+	height:130px;
+	margin-bottom: 15px;
+	z-index: 99;
+	font-family: "Maison Light";
+	letter-spacing: 1.75px;
+	color: #707070;
+}
+.headerlabels {
+	white-space: nowrap;
+	display: flex;
+	color: #707070;
+	position: relative;
+	width: 300px;
+	flex-direction:row;
+}
+
+.headerlabels a {
+	text-decoration: none;
+	color: #707070;
+}
+.headerlabels a:hover {
+	color: red;
+	text-decoration: none;
+}
+#navbar img {
+	width:68px;
+}
+#about_block {
+	position: relative;
+}
+.profile {
+	position: absolute;
+	margin-left: 460px;
+	width: 350px;
+	top:240;
+}
+h2{
+	letter-spacing: 2;
+}
+
+.headerlabels div {
+	margin: 29px 20px 0 10px;
+}
+.nonwork{
+	text-decoration: line-through;
+}
+.container{
+
+}
+.a1_body img-fluid{
+	padding-left: 30px;
+}
+.tsmc_gif1{
+	width:600px;
+	height:350px;
+	position:absolute;
+	left:50%;
+	margin-left:-300px;
+	top:40%;
+	margin-top:2025px;
+}
+.tsmc_gif2{
+	width:600px;
+	height:350px;
+	position:absolute;
+	left:50%;
+	margin-left:-300px;
+	top:48%;
+	margin-top:2025px;
+}

@@ -1,0 +1,163 @@
+html,body{
+	background-color: #FAFAFA;
+	overflow: hidden;
+}
+@keyframes wdd-animation {
+	from{
+		stroke-dashoffset: 2000px;
+		fill: none;
+	}
+	to {
+		stroke-dashoffset: 0px;
+	}
+}
+
+@font-face{
+	font-family: "Maison Light";
+	src: url(../font/MaisonNeue-Light.ttf);
+}
+@font-face{
+	font-family: "Maison Bold";
+	src: url(../font/MaisonNeue-Bold.ttf);
+}
+@font-face{
+	font-family: "Maison Medium";
+	src: url(../font/MaisonNeue-Medium.ttf);
+}
+@font-face{
+	font-family: "Maison Demi";
+	src: url(../font/MaisonNeue-Demi.ttf);
+}
+
+svg{
+	stroke-dasharray: 2000px;
+	stroke-dashoffset: 0;
+	animation: wdd-animation 6s;
+	animation-fill-mode: forwards;
+	fill: white;
+}
+#navbar{
+	position: absolute;
+	width: 280px;
+	right: 0;
+	overflow: hidden;
+	height:130px;
+	margin-bottom: 15px;
+	z-index: 99;
+	font-family: "Maison Light";
+	letter-spacing: 1.75px;
+	font-size:1.1vw;
+}
+#container{
+	position:relative;
+	
+}
+#homeback{
+	position:absolute;
+}
+
+}
+
+.headerlabels{
+	white-space: nowrap;
+	/*right: 105px;*/
+	margin-top: 30;
+	display: flex;
+	color: #707070;
+	position: relative;
+	width: 300px;
+	flex-direction:row;
+}
+
+.headerlabels a:hover {
+	color: red;
+	text-decoration: none;
+}
+
+.headerlabels div {
+	margin: 25px 20px 0 10px;
+}
+
+.about{
+	display: flex;
+	/*margin-left: 20%;*/
+}
+.work{
+	display: flex;
+	/*margin-left: 20%;*/
+}
+.nonwork{
+	display: flex;
+	text-decoration: line-through;
+	/*margin-left: 20%;*/
+}
+#pagescroll{
+	background: #88A09E;
+	width:90%;
+	height:100vh;
+	margin-left: 5%;
+	position: relative;
+	z-index: 1;
+	overflow:auto;
+}
+
+#product {
+	font-family: "Maison Light";
+	color: #444345;
+	letter-spacing:2px;
+	position: absolute;
+	left: 49.2%;
+	line-height:1.2;
+	top: 27.3%;
+	font-size: 1vw;
+}
+#product a:hover {
+	color: red;
+	text-decoration: none;
+}
+#architecture {
+	font-family: "Maison Light";
+	text-align:right;
+	color: #444345;
+	letter-spacing:2px;
+	position: absolute;
+	left: 35.3%;
+	line-height:1.2;
+	top: 48.7%;
+	font-size: 1vw;
+}
+#architecture a:hover {
+	color: red;
+	text-decoration: none;
+}
+#visualdesign {
+	font-family: "Maison Light";
+	color: #444345;
+	letter-spacing:2px;
+	position: absolute;
+	left: 49.2%;
+	line-height:1.2;
+	top: 71.6%;
+	font-size: 1vw;
+}
+#visualdesign a:hover {
+	color: red;
+	text-decoration: none;
+}
+#contact {
+	font-family: "Maison Light";
+	color: #444345;
+	letter-spacing:1.5px;
+	position: absolute;
+	left: 85%;
+	line-height:1.2;
+	top: 89.2%;
+	font-size: 0.7vw;
+}
+#contact a:hover {
+	color: red;
+	text-decoration: none;
+}
+
+
+
