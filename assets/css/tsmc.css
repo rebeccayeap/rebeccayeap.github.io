@@ -68,3 +68,21 @@ h2{
 .a1_body img-fluid{
 	padding-left: 30px;
 }
+.tsmc_gif1{
+	width:600px;
+	height:350px;
+	position:absolute;
+	left:50%;
+	margin-left:-300px;
+	top:40%;
+	margin-top:2025px;
+}
+.tsmc_gif2{
+	width:600px;
+	height:350px;
+	position:absolute;
+	left:50%;
+	margin-left:-300px;
+	top:48%;
+	margin-top:2025px;
+}
