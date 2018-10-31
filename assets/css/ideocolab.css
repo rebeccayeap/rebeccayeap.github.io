@@ -11,13 +11,13 @@ html,body{
 	margin:40px 0 0 0px;
 }
 h2{
-	letter-spacing: 2;
+	letter-spacing: 1;
 }
 #player {
 	position:absolute;
 	left:20%;
 	margin-left:380px;
-	top:37.3%;
+	top:36%;
 }
 
 
