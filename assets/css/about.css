@@ -10,6 +10,15 @@ html,body{
 .logo{
 	margin:40px 0 0 0px;
 }
+p {
+	display: inline-block;
+    font-weight: 250;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.7;
+	font-family: "Helvetica Neue";
+	color: #707070;	
+}
 
 #labels-container {
 	position: absolute;
@@ -20,6 +29,7 @@ html,body{
 	margin-bottom: 15px;
 	z-index: 99;
 	font-family: "Maison Light";
+	font-size: 14px;
 	letter-spacing: 1.75px;
 	color: #707070;
 }
@@ -54,14 +64,15 @@ html,body{
 .email {
 	width:37px;
 	height:36px;
-	margin-left: 8px;
-	margin-top: 2px;
+	margin-left: 2px;
+	margin-top: 3px;
 }
 
 .linkedin {
 	width:40px;
 	height:40px;
 	margin-left: 2px;
+	margin-top: 3px;
 }
 .resume {
 	width:90px;

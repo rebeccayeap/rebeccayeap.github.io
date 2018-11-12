@@ -11,6 +11,22 @@ html,body{
 	margin:40px 0 0 0px;
 }
 
+h2 {
+	letter-spacing: 1.25;
+	font-weight: 200;
+	color: #707070;
+}
+
+p {
+	display: inline-block;
+    font-weight: 250;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.7;
+	font-family: "Helvetica Neue";
+	color: #707070;	
+}
+
 #labels-container {
 	position: absolute;
 	width: 280px;
@@ -20,6 +36,7 @@ html,body{
 	margin-bottom: 15px;
 	z-index: 99;
 	font-family: "Maison Light";
+	font-size: 14px;
 	letter-spacing: 1.75px;
 	color: #707070;
 }

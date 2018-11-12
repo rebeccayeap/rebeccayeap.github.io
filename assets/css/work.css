@@ -45,28 +45,18 @@ svg{
 	margin-bottom: 15px;
 	z-index: 99;
 	font-family: "Maison Light";
+	font-size: 1px;
 	letter-spacing: 1.75px;
-	font-size:1.1vw;
+	font-size: 14px;
 }
+
+
 #container{
 	position:relative;
 	
 }
 #homeback{
 	position:absolute;
-}
-
-}
-
-.headerlabels{
-	white-space: nowrap;
-	/*right: 105px;*/
-	margin-top: 30;
-	display: flex;
-	color: #707070;
-	position: relative;
-	width: 300px;
-	flex-direction:row;
 }
 
 .headerlabels a:hover {
@@ -104,8 +94,9 @@ svg{
 #product {
 	font-family: "Maison Light";
 	color: #444345;
-	letter-spacing:2px;
+	letter-spacing:1.2px;
 	position: absolute;
+	font-weight:150;
 	left: 49.2%;
 	line-height:1.2;
 	top: 27.3%;
@@ -119,7 +110,7 @@ svg{
 	font-family: "Maison Light";
 	text-align:right;
 	color: #444345;
-	letter-spacing:2px;
+	letter-spacing:1.2px;
 	position: absolute;
 	left: 35.3%;
 	line-height:1.2;
@@ -133,7 +124,7 @@ svg{
 #visualdesign {
 	font-family: "Maison Light";
 	color: #444345;
-	letter-spacing:2px;
+	letter-spacing:1.2px;
 	position: absolute;
 	left: 49.2%;
 	line-height:1.2;

@@ -10,6 +10,22 @@ html,body{
 .logo{
 	margin:40px 0 0 0px;
 }
+h2 {
+	letter-spacing: 1.25;
+	font-weight: 200;
+	color: #707070;
+}
+
+p {
+	display: inline-block;
+    font-weight: 250;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.7;
+	font-family: "Helvetica Neue";
+	color: #707070;	
+}
+
 
 #labels-container {
 	position: absolute;
@@ -22,14 +38,6 @@ html,body{
 	font-family: "Maison Light";
 	letter-spacing: 1.75px;
 	color: #707070;
-}
-.headerlabels {
-	white-space: nowrap;
-	display: flex;
-	color: #707070;
-	position: relative;
-	width: 300px;
-	flex-direction:row;
 }
 
 .headerlabels a {
@@ -50,7 +58,7 @@ html,body{
 	position: absolute;
 	margin-left: 500px;
 	width: 250px;
-	top:200;
+	top:150;
 }
 
 .headerlabels div {

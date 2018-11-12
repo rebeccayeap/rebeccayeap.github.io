@@ -11,6 +11,29 @@ html,body{
 	margin:40px 0 0 0px;
 }
 
+h2 {
+	letter-spacing: 1.25;
+	font-weight: 200;
+	color: #707070;
+}
+
+p {
+	display: inline-block;
+    font-weight: 250;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.7;
+	font-family: "Helvetica Neue";
+	color: #707070;	
+}
+a{
+	color: red;
+}
+a:hover {
+	color: black;
+	text-decoration: none;
+}
+
 #labels-container {
 	position: absolute;
 	width: 280px;
@@ -20,16 +43,9 @@ html,body{
 	margin-bottom: 15px;
 	z-index: 99;
 	font-family: "Maison Light";
+	font-size: 14px;
 	letter-spacing: 1.75px;
 	color: #707070;
-}
-.headerlabels {
-	white-space: nowrap;
-	display: flex;
-	color: #707070;
-	position: relative;
-	width: 300px;
-	flex-direction:row;
 }
 
 .headerlabels a {
@@ -50,7 +66,7 @@ html,body{
 	position: absolute;
 	margin-left: 460px;
 	width: 350px;
-	top:240;
+	top:200;
 }
 h2{
 	letter-spacing: 2;
@@ -74,7 +90,7 @@ h2{
 	position:absolute;
 	left:50%;
 	margin-left:-300px;
-	top:40%;
+	top:45%;
 	margin-top:2025px;
 }
 .tsmc_gif2{
@@ -83,6 +99,6 @@ h2{
 	position:absolute;
 	left:50%;
 	margin-left:-300px;
-	top:48%;
+	top:53%;
 	margin-top:2025px;
 }
