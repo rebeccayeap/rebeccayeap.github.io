@@ -7,8 +7,32 @@ html,body{
 	font-family: "Maison Light";
 	src: url(../font/MaisonNeue-Light.ttf);
 }
+
 .logo{
 	margin:40px 0 0 0px;
+}
+
+h2 {
+	letter-spacing: 1.25;
+	font-weight: 200;
+	color: #707070;
+}
+
+p {
+	display: inline-block;
+    font-weight: 250;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.7;
+	font-family: "Helvetica Neue";
+	color: #707070;	
+}
+a{
+	color: #26A2CB;
+}
+a:hover {
+	color: black;
+	text-decoration: none;
 }
 
 #labels-container {
@@ -20,6 +44,7 @@ html,body{
 	margin-bottom: 15px;
 	z-index: 99;
 	font-family: "Maison Light";
+	font-size: 14px;
 	letter-spacing: 1.75px;
 	color: #707070;
 }
@@ -48,9 +73,9 @@ html,body{
 }
 .profile {
 	position: absolute;
-	margin-left: 460px;
-	width: 350px;
-	top:220;
+	margin-left: 400px;
+	width: 450px;
+	top: 100px;
 }
 
 .headerlabels div {
@@ -65,3 +90,16 @@ html,body{
 .a1_body img-fluid{
 	padding-left: 30px;
 }
+
+#player {
+	width:600px;
+	height:400px;
+	position:absolute;
+	left:50%;
+	margin-left:-420px;
+	top:50%;
+	margin-top:2205px;
+}
+
+
+
