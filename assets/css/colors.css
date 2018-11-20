@@ -1,0 +1,102 @@
+html,body{
+	background: #181818;
+	overflow: hidden;
+
+}
+@font-face{
+	font-family: 'Quicksand', sans-serif;
+}
+.search-box{
+	position:absolute;
+	top: 69%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+	background: rgba(257, 257, 257, 0.05);
+	height: 30px;
+	width: 330px;
+	border-radius: 40px;
+	padding: 10px;
+}
+.search-btn{
+	color: white;
+	opacity: 0.5;
+	float: left;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+}
+.search-txt{
+	border: none;
+	background: none;
+	outline: none;
+	float: right;
+	padding: 0;
+	color: white;
+	transition: 0.4s;
+	width: 240px;
+    font-weight: 30;
+    font-size: 14px;
+    letter-spacing: 0.7;
+	font-family: "Quicksand";
+}
+h1{
+	color: white;
+	opacity: 80%;
+	display: inline-block;
+    font-weight: 700;
+    font-size: 40px;
+    width: 900;
+    line-height: 45px;
+    padding-left: 550px;
+    letter-spacing: 2;
+	font-family: "Quicksand";
+}
+.fas{
+	opacity: 0.7;
+}
+#color-box{
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+	margin-left: 10px;
+	height: 235px;
+	width: 35px;
+}
+.box-1{
+	background-color: #FF0000;
+	background-color: ;
+	position: absolute;
+	height: 35px;
+	width: 35px;
+}
+.box-2{
+	top: 75px;
+	background-color: #FF8A00;
+	position: absolute;
+	height: 35px;
+	width: 35px;
+}
+.box-3{
+	top: 125px;
+	background-color: #FEDE31;
+	position: absolute;
+	height: 35px;
+	width: 35px;
+}
+.box-4{
+	top: 175px;
+	background-color: #00BF4C;
+	position: absolute;
+	height: 35px;
+	width: 35px;
+}
+.box-5{
+	top: 225px;
+	background-color: #4699D6;
+	position: absolute;
+	height: 35px;
+	width: 35px;
+}
+
+
+
