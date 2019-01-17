@@ -25,8 +25,19 @@ p {
 	font-family: "Helvetica Neue";
 	color: #707070;	
 }
-
-
+#navbar{
+	position: absolute;
+	width: 280px;
+	right: 0;
+	overflow: hidden;
+	height:130px;
+	margin-bottom: 15px;
+	z-index: 99;
+	font-family: "Maison Light";
+	font-size: 1px;
+	letter-spacing: 1.75px;
+	font-size: 14px;
+}
 #labels-container {
 	position: absolute;
 	width: 280px;

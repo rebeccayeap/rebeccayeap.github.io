@@ -91,48 +91,33 @@ svg{
 	overflow:auto;
 }
 
-#product {
+#bd {
 	font-family: "Maison Light";
 	color: #444345;
 	letter-spacing:1.2px;
 	position: absolute;
-	font-weight:150;
+	font-weight:180;
 	left: 49.2%;
 	line-height:1.2;
-	top: 27.3%;
-	font-size: 1vw;
+	top: 34.2%;
+	font-size: 1.2vw;
 }
-#product a:hover {
+#bd a:hover {
 	color: red;
 	text-decoration: none;
 }
-#architecture {
+#productdesign {
 	font-family: "Maison Light";
 	text-align:right;
 	color: #444345;
-	opacity: 0.5;
 	letter-spacing:1.2px;
 	position: absolute;
-	left: 35.3%;
+	left: 33.4%;
 	line-height:1.2;
-	top: 48.7%;
-	font-size: 1vw;
+	top: 62.4%;
+	font-size: 1.2vw;
 }
-#architecture a:hover {
-	color: red;
-	text-decoration: none;
-}
-#visualdesign {
-	font-family: "Maison Light";
-	color: #444345;
-	letter-spacing:1.2px;
-	position: absolute;
-	left: 49.2%;
-	line-height:1.2;
-	top: 71.6%;
-	font-size: 1vw;
-}
-#visualdesign a:hover {
+#productdesign a:hover {
 	color: red;
 	text-decoration: none;
 }
@@ -141,10 +126,10 @@ svg{
 	color: #BFBFBF;
 	letter-spacing:1.5px;
 	position: absolute;
-	left: 85%;
+	left: 86%;
 	line-height:1.2;
 	top: 89.2%;
-	font-size: 0.7vw;
+	font-size: 0.8vw;
 }
 #contact a:hover {
 	color: red;
