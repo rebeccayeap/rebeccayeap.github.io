@@ -92,12 +92,12 @@ a:hover {
 }
 
 #player {
-	width:600px;
-	height:400px;
+	width:450px;
+	height:533px;
 	position:absolute;
 	left:50%;
 	margin-left:-420px;
-	top:50%;
+	top:33.5%;
 	margin-top:3600px;
 }
 
