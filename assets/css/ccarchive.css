@@ -28,7 +28,7 @@ p {
 	color: #707070;	
 }
 a{
-	color: orange;
+	color: #26A2CB;
 }
 a:hover {
 	color: black;
@@ -73,8 +73,8 @@ a:hover {
 }
 .profile {
 	position: absolute;
-	margin-left: 500px;
-	width: 280px;
+	margin-left: 400px;
+	width: 550px;
 	top: 180px;
 }
 
@@ -90,16 +90,3 @@ a:hover {
 .a1_body img-fluid{
 	padding-left: 30px;
 }
-
-#player {
-	width:600px;
-	height:400px;
-	position:absolute;
-	left:50%;
-	margin-left:-420px;
-	top:50%;
-	margin-top:3600px;
-}
-
-
-
