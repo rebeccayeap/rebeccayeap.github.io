@@ -64,8 +64,8 @@ a:hover {
 }
 .profile {
 	position: absolute;
-	margin-left: 460px;
-	width: 350px;
+	margin-left: 430px;
+	width: 500px;
 	top:200;
 }
 h2{
@@ -90,7 +90,7 @@ h2{
 	position:absolute;
 	left:50%;
 	margin-left:-300px;
-	top:54.5%;
+	top:50.5%;
 	margin-top:2025px;
 }
 .tsmc_gif2{
@@ -99,6 +99,6 @@ h2{
 	position:absolute;
 	left:50%;
 	margin-left:-300px;
-	top:59%;
+	top:56%;
 	margin-top:2025px;
 }
