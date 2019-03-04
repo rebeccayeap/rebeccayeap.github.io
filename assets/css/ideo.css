@@ -47,13 +47,6 @@ a:hover {
 	color: #707070;
 }
 
-#player {
-	position:absolute;
-	left:20%;
-	margin-left:380px;
-	top:37%;
-}
-
 .headerlabels {
 	white-space: nowrap;
 	display: flex;
@@ -79,8 +72,8 @@ a:hover {
 }
 .profile {
 	position: absolute;
-	margin-left: 460px;
-	width: 350px;
+	margin-left: 500px;
+	width: 250px;
 	top:149;
 }
 
