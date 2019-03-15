@@ -78,7 +78,6 @@ svg{
 }
 .nonwork{
 	display: flex;
-	text-decoration: line-through;
 	/*margin-left: 20%;*/
 }
 #pagescroll{
