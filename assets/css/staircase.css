@@ -1,0 +1,102 @@
+html,body{
+	margin:0 8 0 18px;
+	background-color: #FFFFFF;
+
+}
+@font-face{
+	font-family: "Maison Light";
+	src: url(../font/MaisonNeue-Light.ttf);
+}
+
+.logo{
+	margin:40px 0 0 0px;
+}
+
+h2 {
+	letter-spacing: 1.25;
+	font-weight: 200;
+	color: #707070;
+}
+
+p {
+	display: inline-block;
+    font-weight: 250;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.7;
+	font-family: "Helvetica Neue";
+	color: #707070;	
+}
+a{
+	color: #26A2CB;
+}
+a:hover {
+	color: black;
+	text-decoration: none;
+}
+
+#labels-container {
+	position: absolute;
+	width: 263px;
+	right: 0;
+	overflow: hidden;
+	height:50px;
+	margin-bottom: 15px;
+	z-index: 99;
+	font-family: "Maison Light";
+	font-size: 16px;
+	letter-spacing: 1.0px;
+	color: #ABABAB;
+}
+.headerlabels {
+	white-space: nowrap;
+	display: flex;
+	color: #ABABAB;
+	position: relative;
+	flex-direction:row;
+}
+
+.headerlabels a {
+	text-decoration: none;
+	color: #ABABAB;
+}
+.headerlabels a:hover {
+	color: #FAFAFA;
+	text-decoration: none;
+}
+#navbar img {
+	width:68px;
+}
+#about_block {
+	position: relative;
+}
+.profile {
+	position: absolute;
+	margin-left: 400px;
+	width: 550px;
+	top: 180px;
+}
+
+.headerlabels div {
+	margin: 29px 20px 0 10px;
+}
+
+.container{
+
+}
+.a1_body img-fluid{
+	padding-left: 30px;
+}
+
+#player {
+	width:600px;
+	height:400px;
+	position:absolute;
+	left:50%;
+	margin-left:-420px;
+	top:50%;
+	margin-top:5850px;
+}
+
+
+

@@ -37,32 +37,31 @@ a:hover {
 
 #labels-container {
 	position: absolute;
-	width: 280px;
-	right: 8;
+	width: 263px;
+	right: 0;
 	overflow: hidden;
-	height:130px;
+	height:50px;
 	margin-bottom: 15px;
 	z-index: 99;
 	font-family: "Maison Light";
-	font-size: 14px;
-	letter-spacing: 1.75px;
-	color: #707070;
+	font-size: 16px;
+	letter-spacing: 1.0px;
+	color: #ABABAB;
 }
 .headerlabels {
 	white-space: nowrap;
 	display: flex;
-	color: #707070;
+	color: #ABABAB;
 	position: relative;
-	width: 300px;
 	flex-direction:row;
 }
 
 .headerlabels a {
 	text-decoration: none;
-	color: #707070;
+	color: #ABABAB;
 }
 .headerlabels a:hover {
-	color: red;
+	color: #FAFAFA;
 	text-decoration: none;
 }
 #navbar img {

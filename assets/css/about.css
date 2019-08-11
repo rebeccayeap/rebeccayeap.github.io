@@ -1,10 +1,10 @@
 html,body{
 	margin:0 8 0 18px;
-	background-color: #FAFAFA;
+	background-color: #FFFFFF;
 	overflow: hidden;
 }
 @font-face{
-	font-family: "Maison Light";
+	font-family: 'Maison Light';
 	src: url(../font/MaisonNeue-Light.ttf);
 }
 .logo{
@@ -14,40 +14,47 @@ p {
 	display: inline-block;
     font-weight: 250;
     font-size: 14px;
-    line-height: 18px;
+    line-height: 20px;
     letter-spacing: 0.7;
 	font-family: "Helvetica Neue";
 	color: #707070;	
 }
+b{
+	color: #26A2CB;
+    font-weight:250;
+}
+b:hover {
+	color: black;
+	text-decoration: none;
+}
 
 #labels-container {
 	position: absolute;
-	width: 280px;
-	right: 8;
+	width: 263px;
+	right: 0;
 	overflow: hidden;
-	height:130px;
+	height:50px;
 	margin-bottom: 15px;
 	z-index: 99;
 	font-family: "Maison Light";
-	font-size: 14px;
-	letter-spacing: 1.75px;
-	color: #707070;
+	font-size: 16px;
+	letter-spacing: 1.0px;
+	color: #ABABAB;
 }
 .headerlabels {
 	white-space: nowrap;
 	display: flex;
-	color: #707070;
+	color: #ABABAB;
 	position: relative;
-	width: 300px;
 	flex-direction:row;
 }
 
 .headerlabels a {
 	text-decoration: none;
-	color: #707070;
+	color: #ABABAB;
 }
 .headerlabels a:hover {
-	color: red;
+	color: #FAFAFA;
 	text-decoration: none;
 }
 #navbar img {
@@ -62,15 +69,15 @@ p {
 	top:200;
 }
 .email {
-	width:37px;
-	height:36px;
+	width:42px;
+	height:42px;
 	margin-left: 2px;
 	margin-top: 3px;
 }
 
 .linkedin {
-	width:40px;
-	height:40px;
+	width:28px;
+	height:28px;
 	margin-left: 2px;
 	margin-top: 3px;
 }
