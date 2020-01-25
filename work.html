@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Rebecca Yeap</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
+      integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ"
+      crossorigin="anonymous"
+    />
+    <!-- main styleSheet -->
+    <link rel="stylesheet" href="./assets/css/work.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- side bar -->
+      <!-- side navbar -->
+      <div class="sidebar" id="sideNav_wrapper">
+        <button onclick="hideSideBar()" id="closeSideNav">
+          <i class="fas fa-caret-left"></i>
+        </button>
+        <a href="index.html" class="profile_link">Rebecca Yeap</a>
+        <div class="sideNavLink_container" id="sideNav">
+          <!-- Navlink first section -->
+          <div class="blank_space"></div>
+          <div class="sidenav_wrapper">
+            <li class="firt_section">
+              <small class="navLink_title">interaction design</small>
+              <nav class="sideLink_wrapper" id="interaction_design">
+                <a href="#google" class="sideNav_link ">google</a>
+                <a href="#clynx" class="sideNav_link ">clynx</a>
+                <a href="#creative_commons" class="sideNav_link"
+                  >creative commons</a
+                >
+              </nav>
+            </li>
+            <!-- Navlink second section -->
+
+            <li class="second_section">
+              <small class="navLink_title">product design</small>
+              <nav class="sideLink_wrapper" id="product_design">
+                <a href="#staircase" class="sideNav_link">staircase</a>
+                <a href="#form" class="sideNav_link">form</a>
+              </nav>
+            </li>
+            <!-- Navlink third section -->
+
+            <li class="third_section">
+              <small class="navLink_title">business</small>
+              <nav class="sideLink_wrapper" id="business">
+                <a href="#clynx" class="sideNav_link">clynx</a>
+                <a href="#inword" class="sideNav_link">inword</a>
+              </nav>
+            </li>
+          </div>
+        </div>
+        <div class="sidebar__footer">
+          <a
+            href="mailto:rebeccayeap@berkeley.edu"
+            target="_blank"
+            class="mail_link"
+            ><i class="far fa-envelope"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/rebeccayeapberkeley/"
+            class="linkedin"
+            target="_blank"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+        </div>
+      </div>
+      <!-- site content -->
+
+      <div class="content_wrapper" id="main_wrapper">
+        <div class="nav_container" id="nav_container">
+          <button onclick="showSideBar()" id="showSideNav">
+            <i class="fas fa-caret-right"></i>
+          </button>
+          <div class="menu-area">
+            <ul class="inner-page-menu">
+                <li class="active"><a href="index.html">work</a></li>
+                <li><a href="about.html">about</a></li>
+                <li><a href="nonwork.html">photo</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <header class="header">
+          <div class="container">
+            <div class="info_container">
+              <h1>
+                hi, I'm Rebecca - <br />a product designer pulling from architecture and business  
+
+              </h1>
+              <a href="#" class="btn_explore">Explore Below</a>
+            </div>
+          </div>
+        </header>
+
+        <main>
+          <!-- first section -->
+          <div class="content_container">
+            <!-- interaction design section -->
+            <div
+              class="interaction_design_section"
+              id="interaction_design_section"
+            >
+              <!-- google -->
+              <section class="py-4 my-4 google-section " id="google">
+                <div class="inside__content">
+                  <small class="section_small_text"
+                    >User Experience Design Intern @</small
+                  >
+                  <h1 class="section_heading">Google</h1>
+                  <p class="section_text">
+                    Collaborate with engineers, researchers, and PMs to audit, design, prototype and test experiences for YouTube viewers and creators 
+                  </p>
+                   <a href="ytsocial.html" class="section_link"
+                    ><span class="caret_icon"
+                      ><i class="fas fa-caret-right"></i></span
+                    >view project</a>
+                </div>
+
+                <img
+                  src="./assets/img/google.png"
+                  class=" img-fluid "
+                  alt="computer image"
+                />
+              </section>
+              <!-- CLYNX -->
+              <section class="py-4 my-4 clynx-section " id="clynx">
+                <div class="inside__content">
+                  <small class="section_small_text"
+                    >COFOUNDER AND PRODUCT DESIGNER @</small
+                  >
+                  <h1 class="section_heading">Clynx</h1>
+                  <p class="section_text">
+                   Created an engaging, gamified physical therapy product to help frustrated patients recover faster 
+                  </p>
+                  <a href="clynx.html" class="section_link"
+                    ><span class="caret_icon"
+                      ><i class="fas fa-caret-right"></i></span
+                    >view project</a
+                  >
+                  <a
+                    href="http://www.clynx.io/"
+                    target="_blank"
+                    class="section_link"
+                    ><span class="caret_icon"
+                      ><i class="fas fa-caret-right"></i></span
+                    >view clynx website</a
+                  >
+                </div>
+
+                <img
+                  src="./assets/img/clynx.gif"
+                  class="img-fluid"
+                  alt="computer image"
+                />
+              </section>
+              <!-- create commons -->
+              <section
+                class="py-4 my-4 creative-section "
+                id="creative_commons"
+              >
+                <div class="inside__content">
+                  <small class="section_small_text"
+                    >UX Design, Client Project</small
+                  >
+                  <h1 class="section_heading">Creative Commons</h1>
+                  <p class="section_text">
+                    Introduced an archive solution to empower online creators to control the distribution of their work in 4 weeks
+                  </p>
+                  <a href="ccarchive.html" class="section_link"
+                    ><span class="caret_icon"
+                      ><i class="fas fa-caret-right"></i></span
+                    >view project</a
+                  >
+                </div>
+
+                <img
+                  src="./assets/img/cc.gif"
+                  class="img-fluid"
+                  alt="computer image"
+                />
+              </section>
+            </div>
+            <!-- product design section -->
+            <div class="product_design ">
+              <!-- Staircase -->
+              <section class="py-4 my-4 staircase-section " id="staircase">
+                <div class="inside__content">
+                  <small class="section_small_text"
+                    >CONSTRUCTION, STEEL FABRICATION, METAL WELDING</small
+                  >
+                  <h1 class="section_heading">Staircase</h1>
+                  <p class="section_text">
+                    Experimented with steel fabrication while adhering to stair code regulations
+                    to create an interconnected staircase in 5 weeks
+                  </p>
+                  <a href="staircase.html" class="section_link"
+                    ><span class="caret_icon"
+                      ><i class="fas fa-caret-right"></i></span
+                    >view project</a
+                  >
+                </div>
+
+                <img
+                  src="./assets/img/stair.png"
+                  class=" img-fluid "
+                  alt="computer image"
+                />
+              </section>
+              <!-- Form -->
+              <section class="py-4 my-4 form-section " id="form">
+                <div class="inside__content">
+                  <small class="section_small_text">CONSTRUCTION, FORMWORK, CONCRETE</small>
+                  <h1 class="section_heading">Form</h1>
+                  <p class="section_text">
+                    Prototyped, iterated, and designed a complex concrete curvature with the constraints of a stiff, major construction material in 4 weeks
+                  </p>
+                  <a href="form.html" class="section_link"
+                    ><span class="caret_icon"
+                      ><i class="fas fa-caret-right"></i></span
+                    >view project</a
+                  >
+                </div>
+
+                <img
+                  src="./assets/img/concrete.png"
+                  class=" img-fluid "
+                  alt="computer image"
+                />
+              </section>
+            </div>
+            <!-- Inword Section -->
+            <div class="inword_section ">
+              <!-- Inword -->
+              <section class="inword-section py-4 my-4" id="inword">
+                <div class="inside__content">
+                  <small class="section_small_text"
+                    >STRATEGY, PRODUCT MANAGEMENT, UX DESIGN</small
+                  >
+                  <h1 class="section_heading">Inword</h1>
+                  <p class="section_text">
+                    Collaborated on the product roadmap and designed the MVP of a smart journal app to encourage authentic introspection 
+                  </p>
+                  <a href="#" class="section_link"
+                    ><span class="caret_icon"
+                      ><i class="fas fa-caret-right"></i></span
+                    >Coming Soon</a
+                  >
+                </div>
+
+                <img
+                  src="./assets/img/inword.png"
+                  class=" img-fluid "
+                  alt="computer image"
+                />
+              </section>
+            </div>
+          </div>
+          <!-- first section end -->
+        </main>
+      </div>
+    </div>
+
+    <div class="hidden_div"></div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/js/work.js"></script>
+  </body>
+</html>
