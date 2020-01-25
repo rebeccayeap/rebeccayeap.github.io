@@ -1,0 +1,172 @@
+@font-face {
+    font-family: 'GalanoGrotesqueAlt';
+    src: url('../font/GalanoGrotesqueAlt-Light.eot');
+    src: local('☞Galano Grotesque Alt Light'), local('GalanoGrotesqueAlt-Light'),
+        url('../font/GalanoGrotesqueAlt-Light.eot?#iefix')
+            format('embedded-opentype'),
+        url('../font/GalanoGrotesque-Light.woff2') format('woff2'),
+        url('../font/GalanoGrotesqueAlt-Light.woff') format('woff'),
+        url('../font/GalanoGrotesqueAlt-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+html,
+body {
+    margin: 0 8 0 18px;
+    background-color: #fafafa;
+}
+@font-face {
+    font-family: 'Maison Light';
+    src: url(../font/MaisonNeue-Light.ttf);
+}
+
+.logo {
+    margin: 40px 0 0 0px;
+}
+
+h2 {
+    letter-spacing: 1.25;
+    font-weight: 200;
+    color: #707070;
+}
+
+p {
+    display: inline-block;
+    font-weight: 250;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.7;
+    font-family: 'Helvetica Neue';
+    color: #707070;
+}
+a {
+    color: #186eff;
+}
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+#labels-container {
+    position: absolute;
+    width: 280px;
+    right: 8;
+    overflow: hidden;
+    height: 130px;
+    margin-bottom: 15px;
+    z-index: 99;
+    font-family: 'Maison Light';
+    font-size: 14px;
+    letter-spacing: 1.75px;
+    color: #707070;
+}
+.headerlabels {
+    white-space: nowrap;
+    display: flex;
+    color: #707070;
+    position: relative;
+    width: 300px;
+    flex-direction: row;
+}
+
+.headerlabels a {
+    text-decoration: none;
+    color: #707070;
+}
+.headerlabels a:hover {
+    color: red;
+    text-decoration: none;
+}
+#navbar img {
+    width: 68px;
+}
+#about_block {
+    position: relative;
+}
+.profile {
+    position: absolute;
+    margin-left: 450px;
+    width: 420px;
+    top: 170px;
+}
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+#row {
+    width: 650px;
+    margin-top: 13010px;
+    position: absolute;
+    left: 50%;
+    top: 33.5%;
+    margin-left: -325px;
+}
+#row::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+.headerlabels div {
+    margin: 29px 20px 0 10px;
+}
+
+.container {
+}
+.a1_body img-fluid {
+    padding-left: 30px;
+}
+
+#player {
+    width: 450px;
+    height: 533px;
+    position: absolute;
+    left: 50%;
+    margin-left: -420px;
+    top: 33.5%;
+    margin-top: 3450px;
+}
+
+.menu-area {
+    display: flex;
+    justify-content: flex-end;
+}
+.inner-page-menu {
+    display: flex;
+    list-style: none;
+    padding-top: 20px;
+    padding-right: 24px;
+}
+.inner-page-menu li {
+    padding: 20px;
+}
+.inner-page-menu li a {
+    font-size: 14px;
+    text-transform: capitalize;
+    display: block;
+    position: relative;
+    color: #ababab;
+    font-family: 'GalanoGrotesqueAlt';
+    line-height: 19px;
+}
+.inner-page-menu li a::before,
+.inner-page-menu li.active a::before {
+    position: absolute;
+    content: '';
+    bottom: 9px;
+    left: 0;
+    height: 1px;
+    width: 0%;
+    background-color: #000;
+    transition: 0.4s ease;
+}
+.inner-page-menu li:hover a::before,
+.inner-page-menu li.active a::before {
+    width: 100%;
+}
+.inner-page-menu li:hover a,
+.inner-page-menu li.active a {
+    color: #202020;
+}

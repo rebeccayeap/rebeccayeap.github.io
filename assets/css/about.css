@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'GalanoGrotesqueAlt';
+    src: url("../font/GalanoGrotesqueAlt-Light.eot");
+    src: local("☞Galano Grotesque Alt Light"), local("GalanoGrotesqueAlt-Light"), url("../font/GalanoGrotesqueAlt-Light.eot?#iefix") format("embedded-opentype"), url("../font/GalanoGrotesque-Light.woff2") format("woff2"), url("../font/GalanoGrotesqueAlt-Light.woff") format("woff"), url("../font/GalanoGrotesqueAlt-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+}
+
+html{
+	overflow-y: scroll;
+}
+body {
+  background-image: url(assets/img/about.png);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+@font-face{
+	font-family: "Proxima Nova";
+	src: url(../font/Proxima-Nova-Thin-webfont.ttf);
+}
+.logo{
+	margin:40px 0 0 0px;
+}
+
+b{
+	color: #26A2CB;
+    font-weight:250;
+}
+b:hover {
+	color: black;
+	text-decoration: none;
+}
+
+.headerlabels {
+	white-space: nowrap;
+	display: flex;
+	color: #ABABAB;
+	position: relative;
+	flex-direction:row;
+}
+
+.headerlabels a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.headerlabels a:hover {
+	color: #FAFAFA;
+	text-decoration: none;
+}
+#navbar img {
+	width:68px;
+}
+#about_block {
+	position: relative;
+}
+.profile {
+	position:absolute;
+	width: 650px;
+	top:200;
+	right:-40;
+}
+.email {
+	width:28px;
+	height:28px;
+	margin-left: 620px;
+	margin-top: -1400px;
+}
+.linkedin {
+	width:28px;
+	height:28px;
+	margin-left: 655px;
+	margin-top: -1400px;
+}
+.resume {
+	width:90px;
+	height:35px;
+	margin-left: 2px;
+	margin-top: 2.5px;
+}
+.headerlabels div {
+	margin: 29px 20px 0 10px;
+}
+
+
+#navbar{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.inner-page-menu{
+    display: flex;
+	list-style: none;
+	padding-top: 20px;
+	padding-right: 40px;
+}
+.inner-page-menu li {
+    padding: 20px;
+}
+.inner-page-menu li a{
+    font-size: 14px;
+    text-transform: capitalize;
+    display: block;
+	position: relative;
+	color: #fff;
+	font-family: 'GalanoGrotesqueAlt';
+    line-height: 19px;
+}
+.inner-page-menu li a::before,
+.inner-page-menu li.active a::before{
+    position: absolute;
+    content: "";
+    bottom: 9px;
+    left: 0;
+    height: 1px;
+    width: 0%;
+    background-color: #fff;
+    transition: .4s ease;
+}
+.inner-page-menu li:hover a::before,
+.inner-page-menu li.active a::before{
+    width: 100%;
+}
+.inner-page-menu li:hover a,
+.inner-page-menu li.active a{
+    text-decoration: none;
+}

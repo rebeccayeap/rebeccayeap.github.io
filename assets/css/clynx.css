@@ -1,0 +1,154 @@
+@font-face {
+    font-family: 'GalanoGrotesqueAlt';
+    src: url('../font/GalanoGrotesqueAlt-Light.eot');
+    src: local('☞Galano Grotesque Alt Light'), local('GalanoGrotesqueAlt-Light'),
+        url('../font/GalanoGrotesqueAlt-Light.eot?#iefix')
+            format('embedded-opentype'),
+        url('../font/GalanoGrotesque-Light.woff2') format('woff2'),
+        url('../font/GalanoGrotesqueAlt-Light.woff') format('woff'),
+        url('../font/GalanoGrotesqueAlt-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+html,
+body {
+    margin: 0 8 0 18px;
+    background-color: #fafafa;
+}
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url(../font/Proxima-Nova-Thin-webfont.ttf);
+}
+
+.logo {
+    margin: 40px 0 0 0px;
+}
+
+h2 {
+    letter-spacing: 1.25;
+    font-weight: 200;
+    color: #707070;
+    font-family: 'GalanoGrotesqueAlt';
+}
+
+p {
+    display: inline-block;
+    font-weight: 250;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.7;
+    font-family: 'Proxima Nova';
+    color: #707070;
+}
+a {
+    color: #26a2cb;
+}
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+#labels-container {
+    position: absolute;
+    width: 263px;
+    right: 0;
+    overflow: hidden;
+    height: 50px;
+    margin-bottom: 15px;
+    z-index: 99;
+    font-family: 'Proxima Nova';
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #ababab;
+}
+.headerlabels {
+    white-space: nowrap;
+    display: flex;
+    color: #ababab;
+    position: relative;
+    flex-direction: row;
+}
+
+.headerlabels a {
+    text-decoration: none;
+    color: #ababab;
+}
+.headerlabels a:hover {
+    color: #fafafa;
+    text-decoration: none;
+}
+#navbar img {
+    width: 68px;
+}
+#about_block {
+    position: relative;
+}
+.profile {
+    position: absolute;
+    margin-left: 400px;
+    width: 550px;
+    top: 180px;
+}
+
+.headerlabels div {
+    margin: 29px 20px 0 10px;
+}
+
+.container {
+}
+.a1_body img-fluid {
+    padding-left: 30px;
+}
+
+#player {
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    margin-left: -420px;
+    top: 50%;
+    margin-top: 6300px;
+}
+
+.menu-area {
+    display: flex;
+    justify-content: flex-end;
+}
+.inner-page-menu {
+    display: flex;
+    list-style: none;
+    padding-top: 20px;
+    padding-right: 24px;
+}
+.inner-page-menu li {
+    padding: 20px;
+}
+.inner-page-menu li a {
+    font-size: 14px;
+    text-transform: capitalize;
+    display: block;
+    position: relative;
+    color: #ababab;
+    font-family: 'GalanoGrotesqueAlt';
+    line-height: 19px;
+}
+.inner-page-menu li a::before,
+.inner-page-menu li.active a::before {
+    position: absolute;
+    content: '';
+    bottom: 9px;
+    left: 0;
+    height: 1px;
+    width: 0%;
+    background-color: #000;
+    transition: 0.4s ease;
+}
+.inner-page-menu li:hover a::before,
+.inner-page-menu li.active a::before {
+    width: 100%;
+}
+.inner-page-menu li:hover a,
+.inner-page-menu li.active a {
+    color: #202020;
+}
