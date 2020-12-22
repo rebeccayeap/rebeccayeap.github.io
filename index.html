@@ -12,52 +12,54 @@
     />
     <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/navbar.css" />
   </head>
 
   <body>
-    <section id="home" class="header-area">
-      <div class="container">
-        <div class="row">
-          <div class="d-flex menu-area w-100p pt-20">
-            <div class="container justify-content-start">
-              <img src="/assets/img/smiley 2.png" width="26" />
-            </div>
-            <ul class="d-flex menu justify-content-end pr-40">
-              <li class="px-20">
-                <a
-                  class="text-light-14 Galano menu-color tx-capital"
-                  href="index.html"
-                  >projects</a
-                >
-              </li>
-              <li class="px-20">
-                <a
-                  class="text-light-14 Galano menu-color tx-capital"
-                  href="about.html"
-                  >about</a
-                >
-              </li>
-              <li class="px-20">
-                <a
-                  class="text-light-14 Galano menu-color tx-capital"
-                  href="nonwork.html"
-                  style="
-                    font-family: Galano Grotesque;
-                    font-style: normal;
-                    font-weight: normal;
-                    font-size: 14px;
-                    line-height: 130%;
-
-                    letter-spacing: 0.02em;
-
-                    color: #979797;
-                  "
-                  >photo</a
-                >
-              </li>
-            </ul>
-          </div>
+    <header>
+      <div class="d-flex justify-content-center align-items-center">
+        <div class="ml-115">
+          <img src="/assets/img/smiley 2.png" width="26" />
         </div>
+        <ul class="d-flex menu justify-content-end ml-auto inner-page-menu">
+          <li class="active">
+            <a
+              class="text-light-14 Galano menu-color tx-capital"
+              href="./index.html"
+              >projects</a
+            >
+          </li>
+          <li>
+            <a
+              class="text-light-14 Galano menu-color tx-capital"
+              href="./about.html"
+              >about</a
+            >
+          </li>
+          <li class="mr-15">
+            <a
+              class="text-light-14 Galano menu-color tx-capital"
+              href="./nonwork.html"
+              style="
+                font-family: Galano Grotesque;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 130%;
+
+                letter-spacing: 0.02em;
+
+                color: #979797;
+              "
+              >photo</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <section id="home" class="header-area" style="margin-bottom: 142px">
+      <div class="container">
         <div class="pt-120">
           <div class="row">
             <div class="col-md-6">
@@ -117,12 +119,12 @@
     </section>
     <!--tab section here-->
     <section id="sticky-nav" class="content-area">
-      <div id="tab" class="tab-section pt-70">
+      <div id="tab" class="tab-section">
         <div class="container">
           <div class="row">
             <div class="col-md-3">
               <div
-                class="nav flex-column nav-pills mt-10"
+                class="nav flex-column nav-pills"
                 id="v-pills-tab"
                 role="tablist"
                 aria-orientation="vertical"
@@ -208,7 +210,7 @@
                           Product Designer and Cofounder on startup
                         </p>
                         <p class="text-light-12 text-gray Galano">
-                          June 2018 // current
+                          June 2018 - May 2020
                         </p>
                       </a>
                     </div>
@@ -220,7 +222,7 @@
                         <p class="text-light-12 text-gray Galano pb-10">
                           User Experience Design Internship at Youtube
                         </p>
-                        <p class="text-light-12 text-gray">May 2019</p>
+                        <p class="text-light-12 text-gray">Summer 2019</p>
                       </a>
                     </div>
                     <div class="col-4">
@@ -309,7 +311,7 @@
                           Product Designer and Cofounder on startup
                         </p>
                         <p class="text-light-12 text-gray Galano">
-                          June 2018 // current
+                          June 2018 - May 2020
                         </p>
                       </a>
                     </div>
@@ -321,7 +323,7 @@
                         <p class="text-light-12 text-gray Galano pb-5">
                           Brand Management Intern at a global chip foundry
                         </p>
-                        <p class="text-light-12 text-gray Galano">May 2018</p>
+                        <p class="text-light-12 text-gray Galano">Summer 2018</p>
                       </a>
                     </div>
                   </div>
@@ -338,7 +340,7 @@
             class="row align-items-center clynx-area py-50 comon-section p-md-0"
           >
             <div class="col-md-6 py-md-50">
-              <a href="/clynx.html" class="clynex_text">
+              <a href="./clynx.html" class="clynex_text">
                 <h3
                   class="text-bold-35 Galano text-bold-sm-18 text-black0 pb-20"
                 >
@@ -373,7 +375,7 @@
             class="row align-items-center google-area py-50 comon-section p-md-0"
           >
             <div class="col-md-6 py-md-50">
-              <a href="/google.html" class="google_text">
+              <a href="./google.html" class="google_text">
                 <h3
                   class="text-bold-35 Galano text-bold-sm-18 text-black0 pb-20"
                 >
@@ -399,7 +401,7 @@
             class="row align-items-center creative_area py-50 comon-section p-md-0"
           >
             <div class="col-md-6 py-md-50">
-              <a href="ccarchive.html" class="creative_text">
+              <a href="./ccarchive.html" class="creative_text">
                 <h3
                   class="text-bold-35 Galano text-bold-sm-18 text-black0 pb-20"
                 >
@@ -408,8 +410,7 @@
                 <p
                   class="text-light-20 Galano text-light-sm-15 text-black0 mx-w-380"
                 >
-                  Designed an engaging, gamified physical therapy product to
-                  help patients recover faster
+                  Proposed an archive solution to protect creator ownership of digitally published work
                 </p>
               </a>
             </div>
@@ -428,7 +429,7 @@
             class="row align-items-center Staircase-area py-50 comon-section p-md-0"
           >
             <div class="col-md-6 py-md-50">
-              <a href="staircase.html" class="Staircase_text">
+              <a href="./staircase.html" class="Staircase_text">
                 <h3
                   class="text-bold-35 Galano text-bold-sm-18 text-black0 pb-20"
                 >
@@ -453,7 +454,7 @@
             class="row align-items-center form-area py-50 p-md-0 comon-section"
           >
             <div class="col-md-6 py-md-50">
-              <a href="form.html" class="form_text">
+              <a href="./form.html" class="form_text">
                 <h3
                   class="text-bold-35 Galano text-bold-sm-18 text-black0 pb-20"
                 >
@@ -482,7 +483,7 @@
             class="row align-items-center Staircase-area py-50 comon-section p-md-0"
           >
             <div class="col-md-6 py-md-50">
-              <a href="clynx.html" class="Staircase_text">
+              <a href="./clynx.html" class="Staircase_text">
                 <h3
                   class="text-bold-35 Galano text-bold-sm-18 text-black0 pb-20"
                 >
@@ -507,7 +508,7 @@
             class="row align-items-center form-area py-50 comon-section p-md-0"
           >
             <div class="col-md-6 py-md-50">
-              <a href="tsmc.html" class="form_text">
+              <a href="./tsmc.html" class="form_text">
                 <h3
                   class="text-bold-35 Galano text-bold-sm-18 text-black0 pb-20"
                 >

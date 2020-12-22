@@ -2,36 +2,235 @@
   <head>
     <title>Rebecca Yeap</title>
     <link rel="icon" href="assets/img/tagicon.png" />
+
     <link
       rel="stylesheet"
       type="text/css"
       href="assets/css/bootstrap.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" type="text/css" href="assets/css/nonwork.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/sideNav.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/gallery.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/navbar.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
 </html>
 <body>
-  <div id="navbar" class="row">
-    <div class="container">
-      <div class="menu-area">
-        <ul class="d-flex menu justify-content-end pr-40 inner-page-menu">
-          <li><a href="index.html">projects</a></li>
-          <li><a href="about.html">about</a></li>
-          <li class="active"><a href="nonwork.html">photo</a></li>
-        </ul>
+  <div id="navbar">
+    <ul class="d-flex menu justify-content-end inner-page-menu">
+      <li><a href="./index.html">projects</a></li>
+      <li><a href="./about.html">about</a></li>
+      <li class="active"><a href="./nonwork.html">photo</a></li>
+    </ul>
+  </div>
+
+  <main class="container-fluid">
+    <button class="toggleBtn" id="toggle_sidebar">
+      <img
+        src="./assets/img/bars-solid.svg"
+        width="25px"
+        height="25px"
+        alt="hamburger menu icon"
+      />
+    </button>
+    <div class="row" id="row">
+      <div class="col-2 side__nav--container" id="column1">
+        <section>
+          <nav class="side__nav">
+            <div class="side__nav--logo">
+              <a href="./index.html">
+                <img
+                  src="./assets/img/smiley 2.png"
+                  width="26"
+                  height="26"
+                  alt="logo"
+                  style="transform: rotate(-45deg)"
+                />
+              </a>
+            </div>
+            <ul>
+              <li class="nav__item">
+                <a href="./nonwork.html" class="nav__link nav__link--active"
+                  >eyeleaf</a
+                >
+              </li>
+              <li class="nav__item">
+                <a href="./embryonic.html" class="nav__link">embryonic</a>
+              </li>
+              <li class="nav__item">
+                <a href="./selected.html" class="nav__link">selected</a>
+              </li>
+              <li class="nav__item">
+                <a href="./pastWork.html" class="nav__link">past work</a>
+              </li>
+            </ul>
+            <div class="social__contact">
+              <a href="https://www.instagram.com/yeapster/" target="_blank">
+                <img
+                  src="./assets/img/ig_logo.svg"
+                  width="24px"
+                  height="24px"
+                  alt="instagram-brands"
+                />
+              </a>
+              <a href="mailto:rebeccayeap@berkeley.edu">
+                <img
+                  src="./assets/img/email_logo.svg"
+                  width="24px"
+                  height="24px"
+                  alt="email"
+                />
+              </a>
+            </div>
+          </nav>
+        </section>
+      </div>
+
+      <div class="col-10" id="column2">
+        <div class="img_gallery" id="imgGallery">
+          <img
+            class="swiper-slide"
+            src="./assets/img/photos/eyeleaf_1.png"
+            alt="img1"
+            onclick="showSwiper()"
+          />
+          <br />
+          <img
+            class="swiper-slide"
+            src="./assets/img/photos/eyeleaf_2.png"
+            alt="img2"
+            onclick="showSwiper()"
+          />
+          <img
+            class="swiper-slide"
+            src="./assets/img/photos/eyeleaf_3.png"
+            alt="img3"
+            onclick="showSwiper()"
+            -
+          />
+          <img
+            class="swiper-slide"
+            src="./assets/img/photos/eyeleaf_4.png"
+            alt="img4"
+            onclick="showSwiper()"
+          />
+          <img
+            class="swiper-slide"
+            src="./assets/img/photos/eyeleaf_5.png"
+            alt="img5"
+            onclick="showSwiper()"
+          />
+          <img
+            class="swiper-slide"
+            src="./assets/img/photos/eyeleaf_6.png"
+            alt="img6"
+            onclick="showSwiper()"
+          />
+          <img
+            class="swiper-slide"
+            src="./assets/img/photos/eyeleaf_7.png"
+            alt="img7"
+            onclick="showSwiper()"
+          />
+        </div>
+
+        <div class="swiper-container" id="imgSwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./assets/img/photos/big/eyeleaf_1_big.png" alt="img1" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/img/photos/big/eyeleaf_2_big.png" alt="img2" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/img/photos/big/eyeleaf_3_big.png" alt="img3" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/img/photos/big/eyeleaf_4_big.png" alt="img4" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/img/photos/big/eyeleaf_5_big.png" alt="img5" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/img/photos/big/eyeleaf_6_big.png" alt="img6" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/img/photos/big/eyeleaf_7_big.png" alt="img7" />
+            </div>
+          </div>
+          <div class="arrow__controller">
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-  <div class="container-fluid" id="about_block">
-    <div class="row">
-      <div class="col-md-10 offset-md-1">
-        <img
-          class="a1_body img-fluid"
-          src="assets/img/nonwork.jpg"
-          style="padding-top: 10px;"
-        />
-      </div>
-    </div>
-  </div>
+  </main>
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".swiper-container", {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      centeredSlides: false,
+      spaceBetween: 30,
+      grabCursor: true,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      breakpoints: {
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 10,
+        },
+      },
+    });
+
+    var galley = document.getElementById("imgGallery");
+    var swiperImage = document.getElementById("imgSwiper");
+
+    swiperImage.style.display = "none";
+
+    function showSwiper() {
+      galley.style.display = "none";
+      swiperImage.style.display = "block";
+    }
+  </script>
+
+  <script>
+    // const getRow = document.getElementById("row"); // get row element
+    var getFirstCol = document.getElementById("column1"); // get column1 element
+
+    var getSecondCol = document.getElementById("column2"); // get column2
+
+    var toggleBtn = document.getElementById("toggle_sidebar"); // get togglebtn
+
+    toggleBtn.style.display = "none";
+    var getWindowWidth = window.innerWidth;
+
+    if (getWindowWidth <= 800) {
+      getSecondCol.classList.remove("col-10");
+      getSecondCol.classList.add("col-12");
+      getFirstCol.style.display = "none";
+      toggleBtn.style.display = "block";
+    }
+
+    var showSideNav = false;
+    toggleBtn.addEventListener("click", function () {
+      showSideNav = !showSideNav;
+
+      if (showSideNav) {
+        getFirstCol.style.display = "block";
+        getSecondCol.style.marginLeft = "10rem";
+      } else {
+        getFirstCol.style.display = "none";
+        getSecondCol.style.marginLeft = "0";
+      }
+    });
+  </script>
 </body>
