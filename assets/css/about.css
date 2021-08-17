@@ -46,10 +46,10 @@ b:hover {
 
 .headerlabels a {
   text-decoration: none;
-  color: #ffffff;
+  color: #353535;
 }
 .headerlabels a:hover {
-  color: #fafafa;
+  color: #353535;
   text-decoration: none;
 }
 #navbar img {
@@ -109,7 +109,7 @@ b:hover {
   text-transform: capitalize;
   display: block;
   position: relative;
-  color: #fff;
+  color: #353535;
   font-family: "GalanoGrotesqueAlt";
   line-height: 19px;
 }
@@ -121,7 +121,7 @@ b:hover {
   left: 0;
   height: 1px;
   width: 0%;
-  background-color: #fff;
+  background-color: #353535;
   transition: 0.4s ease;
 }
 .inner-page-menu li:hover a::before,

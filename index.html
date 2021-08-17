@@ -1,535 +1,235 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Rebecca Yeap</title>
-    <link rel="icon" href="assets/img/tagicon.png" type="image/icon type" />
+    <link rel="icon" href="assets/img/tagicon.png" />
+
     <link
-      href="https://fonts.googleapis.com/css?family=Poppins:700&display=swap"
       rel="stylesheet"
+      type="text/css"
+      href="assets/css/bootstrap.min.css"
     />
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="stylesheet" href="assets/css/navbar.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/css/nonwork.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/sideNav.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/gallery.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/navbar.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
-
-  <body>
-    <header>
-      <div class="d-flex justify-content-center align-items-center">
-        <div class="ml-115">
-          <img src="/assets/img/smiley 2.png" width="26" />
-        </div>
-        <ul class="d-flex menu justify-content-end ml-auto inner-page-menu">
-          <li class="active">
-            <a
-              class="text-light-14 Galano menu-color tx-capital"
-              href="./index.html"
-              >projects</a
-            >
-          </li>
-          <li class="mr-15">
-            <a
-              class="text-light-14 Galano menu-color tx-capital"
-              href="./nonwork.html"
-              style="
-                font-family: Galano Grotesque;
-                font-style: normal;
-                font-weight: normal;
-                font-size: 14px;
-                line-height: 130%;
-
-                letter-spacing: 0.02em;
-
-                color: #979797;
-              "
-              >photo</a
-            >
-          </li>
-        </ul>
-      </div>
-    </header>
-
-    <section id="home" class="header-area" style="margin-bottom: 142px">
-      <div class="container">
-        <div class="pt-120">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="">
-                <h2
-                  style="
-                    font-family: Galano Grotesque;
-                    font-style: normal;
-                    font-weight: bold;
-                    font-size: 40px;
-                    line-height: 54px;
-                    letter-spacing: 0.02em;
-                    color: #404040;
-                    margin-bottom: 32px;
-                    max-width: 490px;
-                  "
-                >
-                  <b> Hi, Rebecca here</b>
-                </h2>
-                <p
-                  style="
-                    font-family: Galano Grotesque;
-                    font-style: normal;
-                    font-weight: normal;
-                    font-size: 14px;
-                    line-height: 19px;
-                    letter-spacing: 0.02em;
-                    color: #b5b5b5;
-                    max-width: 506px;
-                    margin-bottom: 32px;
-                  "
-                >
-                  Multi-disciplinary product designer specializing in
-                  interaction design, architectural design, and business
-                  strategy. Previous background in Business Administration +
-                  Product Design @ UC Berkeley.
-                </p>
-                <p
-                  style="
-                    font-family: Galano Grotesque;
-                    font-style: normal;
-                    font-weight: normal;
-                    font-size: 14px;
-                    line-height: 19px;
-                    letter-spacing: 0.02em;
-                    color: #b5b5b5;
-                    max-width: 506px;
-                  "
-                >
-                  Currently Interaction Designer @ YouTube
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--tab section here-->
-    <section id="sticky-nav" class="content-area">
-      <div id="tab" class="tab-section">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-3">
-              <div
-                class="nav flex-column nav-pills"
-                id="v-pills-tab"
-                role="tablist"
-                aria-orientation="vertical"
-              >
-                <a
-                  class="active text-regular-14 max text-black mb-20 interaction tab-comon"
-                  id="v-pills-home-tab"
-                  data-toggle="pill"
-                  href="#v-pills-home"
-                  role="tab"
-                  aria-controls="v-pills-home"
-                  aria-selected="true"
-                  style="
-                    font-family: Galano Grotesque;
-                    font-weight: normal;
-                    font-style: normal;
-                    font-size: 14px;
-                    line-height: 19px;
-                    letter-spacing: 0.03em;
-                    text-transform: uppercase;
-                  "
-                  >INTERACTION DESIGN</a
-                >
-                <a
-                  class="text-regular-14 max text-black mb-20 product tab-comon"
-                  id="v-pills-profile-tab"
-                  data-toggle="pill"
-                  href="#v-pills-profile"
-                  role="tab"
-                  aria-controls="v-pills-profile"
-                  aria-selected="false"
-                  style="
-                    font-family: Galano Grotesque;
-                    font-weight: normal;
-                    font-style: normal;
-                    font-size: 14px;
-                    line-height: 19px;
-                    letter-spacing: 0.03em;
-                    text-transform: uppercase;
-                  "
-                  >Architectural DESIGN</a
-                >
-              </div>
-            </div>
-            <div class="col-md-9">
-              <div class="tab-content" id="v-pills-tabContent">
-                <div
-                  class="tab-pane fade show active"
-                  id="v-pills-home"
-                  role="tabpanel"
-                  aria-labelledby="v-pills-home-tab"
-                >
-                  <div class="row">
-                    <div class="col-4">
-                      <a
-                        class="mx-w-205 d-block hidden-tab menu-active"
-                        href="#Clynx"
-                      >
-                        <h3 class="text-sbold-16 Galano text-black pb-10">
-                          CLYNX
-                        </h3>
-                        <p class="text-light-12 text-gray Galano pb-10">
-                          Product Designer and Cofounder on startup
-                        </p>
-                        <p class="text-light-12 text-gray Galano">
-                          June 2018 - May 2020
-                        </p>
-                      </a>
-                    </div>
-                    <div class="col-4">
-                      <a class="mx-w-210 d-block hidden-tab" href="#google">
-                        <h3 class="text-sbold-16 Galano text-black pb-10">
-                          GOOGLE
-                        </h3>
-                        <p class="text-light-12 text-gray Galano pb-10">
-                          User Experience Design Internship at Youtube
-                        </p>
-                        <p class="text-light-12 text-gray">Summer 2019</p>
-                      </a>
-                    </div>
-                    <div class="col-4">
-                      <a class="mx-w-210 d-block hidden-tab" href="#Creative">
-                        <h3 class="text-sbold-16 Galano text-black pb-10">
-                          CREATIVE COMMONS
-                        </h3>
-                        <p
-                          class="text-light-12 text-gray Galano pb-10 mx-w-200"
-                        >
-                          User Experience Design Client Project
-                        </p>
-                        <p class="text-light-12 text-gray Galano">
-                          November 2018
-                        </p>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="tab-pane fade"
-                  id="v-pills-profile"
-                  role="tabpanel"
-                  aria-labelledby="v-pills-profile-tab"
-                >
-                  <div class="row">
-                    <div class="col-3 col-md-4">
-                      <a
-                        class="mx-w-210 d-block hidden-tab menu-active"
-                        href="#Staircase"
-                      >
-                        <h3 class="text-sbold-16 Galano text-black pb-10">
-                          Staircase
-                        </h3>
-                        <p class="text-light-12 pb-5 text-gray Galano">
-                          6-week architectural construction project
-                        </p>
-                        <p class="text-light-12 text-gray Galano">
-                          February 2019
-                        </p>
-                      </a>
-                    </div>
-                    <div class="col-6 col-md-4">
-                      <a class="mx-w-210 d-block hidden-tab" href="#Form">
-                        <h3 class="text-sbold-16 Galano text-black pb-10">
-                          Form
-                        </h3>
-                        <p class="text-light-12 text-gray Galano pb-5">
-                          4-week architectural construction project
-                        </p>
-                        <p class="text-light-12 text-gray Galano">April 2019</p>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="tab-pane fade"
-                  id="v-pills-messages"
-                  role="tabpanel"
-                  aria-labelledby="v-pills-messages-tab"
-                >
-                  <div class="row">
-                    <div class="col-6 col-md-4">
-                      <a
-                        class="mx-w-210 d-block hidden-tab menu-active"
-                        href="#ami"
-                      >
-                        <h3
-                          class="text-sbold-16 Galano text-black pb-10"
-                          style="
-                            font-family: Galano Grotesque;
-                            font-style: normal;
-                            font-weight: 500;
-                            font-size: 14px;
-                            line-height: 19px;
-                            /* identical to box height */
-
-                            letter-spacing: 0.02em;
-
-                            color: #404040;
-                          "
-                        >
-                          clynx
-                        </h3>
-                        <p class="text-light-12 pb-5 text-gray Galano">
-                          Product Designer and Cofounder on startup
-                        </p>
-                        <p class="text-light-12 text-gray Galano">
-                          June 2018 - May 2020
-                        </p>
-                      </a>
-                    </div>
-                    <div class="col-6 col-md-4">
-                      <a class="mx-w-210 d-block hidden-tab" href="#Fo">
-                        <h3 class="text-sbold-16 Galano text-black pb-10">
-                          TSMC
-                        </h3>
-                        <p class="text-light-12 text-gray Galano pb-5">
-                          Brand Management Intern at a global chip foundry
-                        </p>
-                        <p class="text-light-12 text-gray Galano">Summer 2018</p>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="interaction_design active">
-        <div class="container">
-          <div
-            id="Clynx"
-            class="row align-items-center clynx-area py-50 comon-section p-md-0"
-          >
-            <div class="col-md-6 py-md-50">
-              <a href="./clynx.html" class="clynex_text">
-                <h3
-                  class="text-bold-35 Galano text-bold-sm-18 text-black0 pb-20"
-                >
-                  clynx
-                </h3>
-                <p
-                  class="text-light-20 Galano text-light-sm-15 text-black0 mx-w-380"
-                  style="
-                    font-family: Galano Grotesque;
-                    font-style: normal;
-                    font-weight: 300;
-                    font-size: 20px;
-                    line-height: 27px;
-                    letter-spacing: 0.02em;
-
-                    color: #323232;
-                  "
-                >
-                  Designed an engaging, gamified physical therapy product to
-                  help patients recover faster
-                </p>
-              </a>
-            </div>
-            <div class="col-md-6 py-md-50">
-              <div class="clynex_img">
-                <img src="assets/img/creative.gif" alt="" />
-              </div>
-            </div>
-          </div>
-          <div
-            id="google"
-            class="row align-items-center google-area py-50 comon-section p-md-0"
-          >
-            <div class="col-md-6 py-md-50">
-              <a href="./google.html" class="google_text">
-                <h3
-                  class="text-bold-35 Galano text-bold-sm-18 text-black0 pb-20"
-                >
-                  Google
-                </h3>
-                <p
-                  class="text-light-20 Galano text-light-sm-15 text-black0 mx-w-400"
-                >
-                  Collaborate with engineers, researchers, and PMs to audit,
-                  prototype and test experiences for YouTube viewers and
-                  creators
-                </p>
-              </a>
-            </div>
-            <div class="col-md-6 py-md-50">
-              <div class="clynex_img">
-                <img src="assets/img/google.png" alt="" />
-              </div>
-            </div>
-          </div>
-          <div
-            id="Creative"
-            class="row align-items-center creative_area py-50 comon-section p-md-0"
-          >
-            <div class="col-md-6 py-md-50">
-              <a href="./ccarchive.html" class="creative_text">
-                <h3
-                  class="text-bold-35 Galano text-bold-sm-18 text-black0 pb-20"
-                >
-                  Creative Commons
-                </h3>
-                <p
-                  class="text-light-20 Galano text-light-sm-15 text-black0 mx-w-380"
-                >
-                  Proposed an archive solution to protect creator ownership of digitally published work
-                </p>
-              </a>
-            </div>
-            <div class="col-md-6 py-md-50">
-              <div class="clynex_img">
-                <img src="assets/img/clynx.gif" alt="" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="product_design">
-        <div class="container">
-          <div
-            id="Staircase"
-            class="row align-items-center Staircase-area py-50 comon-section p-md-0"
-          >
-            <div class="col-md-6 py-md-50">
-              <a href="./staircase.html" class="Staircase_text">
-                <h3
-                  class="text-bold-35 Galano text-bold-sm-18 text-black0 pb-20"
-                >
-                  Staircase
-                </h3>
-                <p
-                  class="text-light-20 Galano text-light-sm-15 text-black0 mx-w-380"
-                >
-                  Explored working with sheet metal while abiding to CA code to
-                  create an interconnected staircase in 3 weeks
-                </p>
-              </a>
-            </div>
-            <div class="col-md-6 py-md-50">
-              <div class="clynex_img">
-                <img src="assets/img/arch_2.png" alt="" />
-              </div>
-            </div>
-          </div>
-          <div
-            id="Form"
-            class="row align-items-center form-area py-50 p-md-0 comon-section"
-          >
-            <div class="col-md-6 py-md-50">
-              <a href="./form.html" class="form_text">
-                <h3
-                  class="text-bold-35 Galano text-bold-sm-18 text-black0 pb-20"
-                >
-                  Form
-                </h3>
-                <p
-                  class="text-light-20 Galano text-light-sm-15 text-black0 mx-w-400"
-                >
-                  Experimented with complex curvatures by designing pre-planned
-                  formworks to set concrete into an elegant form
-                </p>
-              </a>
-            </div>
-            <div class="col-md-6 py-md-50">
-              <div class="clynex_img">
-                <img src="assets/img/arch_1.png" alt="" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="business_design">
-        <div class="container">
-          <div
-            id="ami"
-            class="row align-items-center Staircase-area py-50 comon-section p-md-0"
-          >
-            <div class="col-md-6 py-md-50">
-              <a href="./clynx.html" class="Staircase_text">
-                <h3
-                  class="text-bold-35 Galano text-bold-sm-18 text-black0 pb-20"
-                >
-                  Clynx
-                </h3>
-                <p
-                  class="text-light-20 Galano text-light-sm-15 text-black0 mx-w-380"
-                >
-                  Designed an engaging, gamified physical therapy product to
-                  help patients recover faster
-                </p>
-              </a>
-            </div>
-            <div class="col-md-6 py-md-50">
-              <div class="clynex_img">
-                <img src="assets/img/creative.gif" alt="" />
-              </div>
-            </div>
-          </div>
-          <div
-            id="Fo"
-            class="row align-items-center form-area py-50 comon-section p-md-0"
-          >
-            <div class="col-md-6 py-md-50">
-              <a href="./tsmc.html" class="form_text">
-                <h3
-                  class="text-bold-35 Galano text-bold-sm-18 text-black0 pb-20"
-                >
-                  TSMC
-                </h3>
-                <p
-                  class="text-light-20 Galano text-light-sm-15 text-black0 mx-w-380"
-                >
-                  Planned, designed, and executed showroom layout and 40-inch
-                  digital touchscreen interface for the TSMC Nanjing Showroom
-                </p>
-              </a>
-            </div>
-            <div class="col-md-6 py-md-50">
-              <div class="clynex_img">
-                <img src="assets/img/tsmc.png" alt="" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- sticy icone-->
-    <div class="sticky_icone">
-      <a class="go-home" href="#home">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="24"
-          height="24"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          stroke-width="2"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          class="feather feather-chevron-up"
-        >
-          <polyline points="18 15 12 9 6 15"></polyline>
-        </svg>
-      </a>
-    </div>
-    <!-- Jquery -->
-    <script src="assets/js/jquery-3.3.1.min.js"></script>
-    <script src="https://code.jquery.com/jquery-migrate-1.4.1.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/popper.js"></script>
-    <script src="assets/js/smoothScroll.js"></script>
-    <script src="assets/js/jquery.waypoints.min.js"></script>
-    <script src="assets/js/scripts.js"></script>
-  </body>
 </html>
+<body>
+  <div id="navbar">
+    <ul class="d-flex menu justify-content-end inner-page-menu">
+      <li><a href="./about.html">about</a></li>
+      <li class="active"><a href="./nonwork.html">photo</a></li>
+    </ul>
+  </div>
+
+  <main class="container-fluid">
+    <button class="toggleBtn" id="toggle_sidebar">
+      <img
+        src="./assets/img/bars-solid.svg"
+        width="25px"
+        height="25px"
+        alt="hamburger menu icon"
+      />
+    </button>
+    <div class="row" id="row">
+      <div class="col-2 side__nav--container" id="column1">
+        <section>
+          <nav class="side__nav">
+            <div class="side__nav--logo">
+              <a href="./index.html">
+                <img
+                  src="./assets/img/smiley 2.png"
+                  width="26"
+                  height="26"
+                  alt="logo"
+                  style="transform: rotate(-45deg)"
+                />
+              </a>
+            </div>
+            <ul>
+              <li class="nav__item">
+                <a href="./nonwork.html" class="nav__link nav__link--active"
+                  >featured</a
+                >
+              </li>
+              <li class="nav__item">
+                <a href="./embryonic.html" class="nav__link">embryonic</a>
+              </li>
+              <li class="nav__item">
+                <a href="./selected.html" class="nav__link">selected</a>
+              </li>
+              <li class="nav__item">
+                <a href="./archive.html" class="nav__link">archive</a>
+              </li>
+            </ul>
+            <div class="social__contact">
+              <a href="https://www.instagram.com/yeapster/" target="_blank">
+                <img
+                  src="./assets/img/ig_logo.svg"
+                  width="24px"
+                  height="24px"
+                  alt="instagram-brands"
+                />
+              </a>
+              <a href="mailto:rebeccayeap@berkeley.edu">
+                <img
+                  src="./assets/img/email_logo.svg"
+                  width="24px"
+                  height="24px"
+                  alt="email"
+                />
+              </a>
+            </div>
+          </nav>
+        </section>
+      </div>
+
+      <div class="col-10" id="column2">
+        <div class="img_gallery" id="imgGallery">
+          <img
+            class="swiper-slide"
+            src="./assets/img/photos/eyeleaf_1.png"
+            alt="img1"
+            onclick="showSwiper()"
+          />
+          <br />
+          <img
+            class="swiper-slide"
+            src="./assets/img/photos/eyeleaf_2.png"
+            alt="img2"
+            onclick="showSwiper()"
+          />
+          <img
+            class="swiper-slide"
+            src="./assets/img/photos/eyeleaf_3.png"
+            alt="img3"
+            onclick="showSwiper()"
+            -
+          />
+          <img
+            class="swiper-slide"
+            src="./assets/img/photos/eyeleaf_4.png"
+            alt="img4"
+            onclick="showSwiper()"
+          />
+          <img
+            class="swiper-slide"
+            src="./assets/img/photos/eyeleaf_5.png"
+            alt="img5"
+            onclick="showSwiper()"
+          />
+          <img
+            class="swiper-slide"
+            src="./assets/img/photos/eyeleaf_6.png"
+            alt="img6"
+            onclick="showSwiper()"
+          />
+          <img
+            class="swiper-slide"
+            src="./assets/img/photos/eyeleaf_7.png"
+            alt="img7"
+            onclick="showSwiper()"
+          />
+        </div>
+
+        <div class="swiper-container" id="imgSwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./assets/img/photos/big/eyeleaf_1_big.png" alt="img1" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/img/photos/big/eyeleaf_2_big.png" alt="img2" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/img/photos/big/eyeleaf_3_big.png" alt="img3" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/img/photos/big/eyeleaf_4_big.png" alt="img4" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/img/photos/big/eyeleaf_5_big.png" alt="img5" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/img/photos/big/eyeleaf_6_big.png" alt="img6" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/img/photos/big/eyeleaf_7_big.png" alt="img7" />
+            </div>
+          </div>
+          <div class="arrow__controller">
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".swiper-container", {
+      slidesPerView: 1,
+      spaceBetween: 10,
+      centeredSlides: false,
+      spaceBetween: 30,
+      grabCursor: true,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      breakpoints: {
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 10,
+        },
+      },
+    });
+
+    var galley = document.getElementById("imgGallery");
+    var swiperImage = document.getElementById("imgSwiper");
+
+    swiperImage.style.display = "none";
+
+    function showSwiper() {
+      galley.style.display = "none";
+      swiperImage.style.display = "block";
+    }
+  </script>
+
+  <script>
+    // const getRow = document.getElementById("row"); // get row element
+    var getFirstCol = document.getElementById("column1"); // get column1 element
+
+    var getSecondCol = document.getElementById("column2"); // get column2
+
+    var toggleBtn = document.getElementById("toggle_sidebar"); // get togglebtn
+
+    toggleBtn.style.display = "none";
+    var getWindowWidth = window.innerWidth;
+
+    if (getWindowWidth <= 800) {
+      getSecondCol.classList.remove("col-10");
+      getSecondCol.classList.add("col-12");
+      getFirstCol.style.display = "none";
+      toggleBtn.style.display = "block";
+    }
+
+    var showSideNav = false;
+    toggleBtn.addEventListener("click", function () {
+      showSideNav = !showSideNav;
+
+      if (showSideNav) {
+        getFirstCol.style.display = "block";
+        getSecondCol.style.marginLeft = "10rem";
+      } else {
+        getFirstCol.style.display = "none";
+        getSecondCol.style.marginLeft = "0";
+      }
+    });
+  </script>
+</body>
